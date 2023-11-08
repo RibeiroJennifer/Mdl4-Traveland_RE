@@ -7,7 +7,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="./assets/css/index.css" />
+<link rel="stylesheet" href="./assets/css/mvc.css" />
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
 <title>Traveland | Criar Compra</title>
@@ -19,7 +19,7 @@
 		</header>
 
 		<jsp:include page="../../components/menu.jsp">
-			<jsp:param name="home" value="./index.jsp" />
+			<jsp:param name="home" value="./mvc.jsp" />
 			<jsp:param name="usuarios" value="Usuario" />
 			<jsp:param name="livros" value="Destinos" />
 			<jsp:param name="compras" value="Compras" />

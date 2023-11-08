@@ -1,42 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Traveland</title>
-    <link rel="shortcut icon" href="icons/Favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/Favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
     <script src="https://kit.fontawesome.com/daaea144c6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-        <!-- barra de navegaÃ§Ã£o -->
+        <!-- barra de navegação -->
         <nav class="navbar navbar-dark navbar-expand-lg fixed-top shadow-sm navbar-light">
             <a class="navbar-brand" href="#">
-                <img id="logo" src="img/logo1.png" href="index.html" alt="logo">
+                <img id="logo" src="assets/img/logo1.png" href="index.jsp" alt="logo">
             </a>
             <button id="btn-menu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegaÃ§Ã£o">
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html" id="home-menu">InÃ­cio <span class="sr-only">(PÃ¡gina
+                        <a class="nav-link" href="index.jsp" id="home-menu">Início <span class="sr-only">(Página
                                 atual)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="destinos.html" id="destinations-menu">Destinos</a>
+                        <a class="nav-link" href="destinos.jsp" id="destinations-menu">Destinos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="promocoes.html" id="promotions-menu">PromoÃ§Ãµes</a>
+                        <a class="nav-link" href="promocoes.jsp" id="promotions-menu">Promoções</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contato.html" id="contact-menu">Contato</a>
+                        <a class="nav-link" href="contato.jsp" id="contact-menu">Contato</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="modal" data-target="#loginModal" style="cursor: pointer">Login/Cadastro</a>
@@ -46,7 +47,7 @@
         </nav>
     </header>
     <main>
-        <!-- Contatos FormulÃ¡rio -->
+        <!-- Contatos Formulário -->
         <div class="container form-contact">
             <div class="col-md-12">
                 <h2 class="text-center">Entre em contato conosco - Traveland</h2>
@@ -65,7 +66,7 @@
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Escreva sua mensagem</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1"
-                            rows="3">Sua mensagem aqui!</textarea>
+                            rows="3">Sua mensagem será enviada para nosso Email, aguarde uma resposta!</textarea>
                     </div>
                     <button type="button" class="btn btn-primary">Enviar</button>
                 </form>
@@ -73,7 +74,7 @@
         </div>
         </div>
     </main>
-    <!-- RodapÃ© -->
+    <!-- Rodapé -->
     <footer>
         <div id="contact-area">
             <div class="container" id="contact-all">
@@ -120,7 +121,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <!-- FormulÃ¡rio de login -->
+                    <!-- Formulário de login -->
                     <form>
                         <div class="form-group">
                             <label for="email">Email</label>
@@ -155,7 +156,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <!-- FormulÃ¡rio de cadastro -->
+                    <!-- Formulário de cadastro -->
                     <form>
                         <div class="form-group">
                             <label for="Nome">Nome Completo</label>

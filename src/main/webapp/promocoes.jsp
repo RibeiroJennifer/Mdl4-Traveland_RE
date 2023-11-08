@@ -1,42 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Traveland</title>
-  <link rel="shortcut icon" href="icons/Favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="asset/css/Favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/promocoes.css">
+  <link rel="stylesheet" href="assets/css/promocoes.css">
   <script src="https://kit.fontawesome.com/daaea144c6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
-    <!-- barra de navega√ß√£o -->
+    <!-- barra de navegaÁ„o -->
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top shadow-sm navbar-light">
       <a class="navbar-brand" href="#">
-        <img id="logo" src="img/logo1.png" href="index.html" alt="logo">
+        <img id="logo" src="assets/img/logo1.png" href="index.jsp" alt="logo">
       </a>
       <button id="btn-menu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navega√ß√£o">
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegaÁ„o">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html" id="home-menu">In√≠cio <span class="sr-only">(P√°gina
+            <a class="nav-link" href="index.jsp" id="home-menu">InÌcio <span class="sr-only">(P·gina
                 atual)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="destinos.html" id="destinations-menu">Destinos</a>
+            <a class="nav-link" href="destinos.jsp" id="destinations-menu">Destinos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="promocoes.html" id="promotions-menu">Promo√ß√µes</a>
+            <a class="nav-link" href="promocoes.jsp" id="promotions-menu">PromoÁıes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contato.html" id="contact-menu">Contato</a>
+            <a class="nav-link" href="contato.jsp" id="contact-menu">Contato</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="modal" data-target="#loginModal" style="cursor: pointer">Login/Cadastro</a>
@@ -51,55 +52,55 @@
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="img/CasteloTokyo.jpg" alt="Primeiro Slide">
+            <img class="d-block w-100" src="assets/img/CasteloTokyo.jpg" alt="Primeiro Slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="img/DisneyParis.jpg" alt="Segundo Slide">
+            <img class="d-block w-100" src="assets/img/DisneyParis.jpg" alt="Segundo Slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="img/CasteloChina.jpg" alt="Terceiro Slide">
+            <img class="d-block w-100" src="assets/img/CasteloChina.jpg" alt="Terceiro Slide">
           </div>
         </div>
       </div>
     </div>
-    <!-- Promo√ß√µes -->
+    <!-- PromoÁıes -->
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="main-title" style="margin-top: 20px; margin-bottom: -10px;">Promo√ß√µes</h3>
+          <h3 class="main-title" style="margin-top: 20px; margin-bottom: -10px;">PromoÁıes</h3>
           <hr>
         </div>
         <div class="row">
           <div class="card-deck">
             <div class="card">
-              <img class="card-img-top" src="img/DisneyParis.jpg" alt="Imagem de capa do card">
+              <img class="card-img-top" src="assets/img/DisneyParis.jpg" alt="Imagem de capa do card">
               <div class="card-body text-center">
-                <h5 class="card-title">Disney Paris, Fran√ßa
+                <h5 class="card-title">Disney Paris, FranÁa <br>R$500,00 <br>
                   <span class="badge badge-warning">25% OFF</span>
                 </h5>
-                <p class="card-text">Venha sonhar e explorar o castelo m√°gico da Bela Adormecida, localizado na
-                  capital da Fran√ßa, Paris.</p>
+                <p class="card-text">Venha sonhar e explorar o castelo m·gico da Bela Adormecida, localizado na
+                  capital da FranÁa, Paris.</p>
                 <button type="button" class="btn btn-secondary">Comprar</button>
               </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="img/OrlandoDisney.jpg" alt="Imagem de capa do card">
+              <img class="card-img-top" src="assets/img/OrlandoDisney.jpg" alt="Imagem de capa do card">
               <div class="card-body text-center">
-                <h5 class="card-title">Disney Orlando, EUA
+                <h5 class="card-title">Disney Orlando, EUA <br>R$500,00 <br>
                   <span class="badge badge-warning">20% OFF</span>
                 </h5>
-                <p class="card-text">Venha sonhar e explorar o castelo m√°gico da Cinderela, localizado na cidade da
-                  Fl√≥rida|EUA, Orlando.</p>
+                <p class="card-text">Venha sonhar e explorar o castelo m·gico da Cinderela, localizado na cidade da
+                  FlÛrida|EUA, Orlando.</p>
                 <button type="button" class="btn btn-secondary">Comprar</button>
               </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="img/CasteloHongKongBelaAdormecida.jpg" alt="Imagem de capa do card">
+              <img class="card-img-top" src="assets/img/CasteloHongKongBelaAdormecida.jpg" alt="Imagem de capa do card">
               <div class="card-body text-center">
-                <h5 class="card-title">Disney Hong Kong, China
+                <h5 class="card-title">Disney Hong Kong, China<br>R$500,00 <br>
                   <span class="badge badge-warning">50% OFF</span>
                 </h5>
-                <p class="card-text">Venha sonhar e explorar o castelo m√°gico da Bela Adormecida, localizado na cidade
+                <p class="card-text">Venha sonhar e explorar o castelo m·gico da Bela Adormecida, localizado na cidade
                   da China, Hong Kong.</p>
                 <button type="button" class="btn btn-secondary">Comprar</button>
               </div>
@@ -110,7 +111,7 @@
     </div>
     </div>
   </main>
-  <!-- Rodap√© -->
+  <!-- RodapÈ -->
   <footer>
     <div id="contact-area">
       <div class="container" id="contact-all">
@@ -157,7 +158,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <!-- Formul√°rio de login -->
+          <!-- Formul·rio de login -->
           <form>
             <div class="form-group">
               <label for="email">Email</label>
@@ -192,7 +193,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <!-- Formul√°rio de cadastro -->
+          <!-- Formul·rio de cadastro -->
           <form>
             <div class="form-group">
               <label for="Nome">Nome Completo</label>
